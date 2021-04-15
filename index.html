@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="qa-box">
+      <div class="qa-header">
+        <span>Score: <span id="score">0</span></span>
+        <span id="countdown">0</span>
+      </div>
+      <div class="qa-body">
+        <div class="qa-set active">
+          <h4>1. What does HTML stand for?</h4>
+          <div class="qa-ans-row">
+            <input type="radio" name="a1" />
+            <span>Hyperlinks and Text Markup Language</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a1" />
+            <span>Home Tool Markup Language</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a1" valid="valid" />
+            <span>Hyper Text Markup Language</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a1" />
+            <span>Cascading Style Sheet</span>
+          </div>
+        </div>
+        <div class="qa-set">
+          <h4>2. Choose the correct HTML element for the largest heading:</h4>
+          <div class="qa-ans-row">
+            <input type="radio" name="a2" />
+            <span>&it;h&gt;</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a2" />
+            <span>&it;head&gt;</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a2"/>
+            <span>&it;heading&gt;</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a2" valid="valid" />
+            <span>&it;h1&gt;</span>
+          </div>
+        </div>
+        <div class="qa-set">
+          <h4>3. What does CSS stand for?</h4>
+          <div class="qa-ans-row">
+            <input type="radio" name="a3" />
+            <span>Computer style Sheets</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a3" />
+            <span>Colorful style Sheets</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a3" valid="valid"/>
+            <span>Cascading style Sheets</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a3" />
+            <span>Creative style Sheets</span>
+          </div>
+        </div>
+        <div class="qa-set">
+          <h4>4. how do you display hyperlinks without an underline?</h4>
+          <div class="qa-ans-row">
+            <input type="radio" name="a4" />
+            <span>{decoration:no-underline}</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a4" />
+            <span>{underline:none}</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a4" valid="valid"/>
+            <span>{text-decoration:none}</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a4" />
+            <span>{text-decoration:no-underline}</span>
+          </div>
+        </div>
+        <div class="qa-set">
+          <h4>5. How do you create a function in JavaScript</h4>
+          <div class="qa-ans-row">
+            <input type="radio" name="a5" />
+            <span>function:myfunction()</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a5" />
+            <span>function = myfunction()</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a5" valid="valid"/>
+            <span>function myfunction()</span>
+          </div>
+          <div class="qa-ans-row">
+            <input type="radio" name="a5" />
+            <span>functio == nmyfunction()</span>
+          </div>
+      </div>
+      <div class="qa-set">
+        <h4>Your total score <span id="totalscore">0</span> out of 100</h4>
+      </div>
+      <div class="qa-footer">
+        <span class="btn1" id="skip">Skip</span>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
